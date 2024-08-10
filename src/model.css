@@ -1,0 +1,153 @@
+/* Mon code */
+.message{
+  background-color: #1115;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  
+  top: 0;
+  left:0;
+  z-index: 200;
+}
+.modal{
+  position: relative;
+  top: -100px;
+  /* width: 300px; */
+  background-color: white;
+  padding: 2rem;
+  height: auto;
+  border-radius: 20px;
+  border-left: 1px rgba(255, 255, 255,.3);
+  border-top: 1px rgba(255, 255, 255,.3) ;
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,.3) ;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.tittre_message{
+  color:black ;
+  font-weight: 500;
+  opacity: .7;
+  font-size: 1.4rem;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255,.3) ;
+}
+.btn_confi{
+  text-align: center;
+width: 100px;
+height: 40px;
+border-radius: 20px;
+/* padding-bottom:20px; */
+border: solid 0.1px white;
+margin-top:-25px;
+margin-left:10px ;
+margin-right:10px ;
+Background-color: white;
+box-shadow: 20px 20px 40px -6px rgba(0,0,0,.3) ;
+}
+
+
+.btn_confi:hover{
+background-color: #47d365;
+}
+
+.btn_confi_lien{
+color: black;
+text-decoration: none;
+}
+.btn_confi_lien:hover{
+color: white;
+}
+.icons{
+  width: 25px;
+  height: 25px ;
+  float: right;
+  position: relative;
+  bottom: 25px;
+  left:25px;
+}
+  
+/* Code sur github */
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(200, 200, 200); */
+    background-color: #47d365;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  .fermer{
+   
+    float: right;
+    position: relative;
+    bottom: 25px;
+    left:25px;
+}
